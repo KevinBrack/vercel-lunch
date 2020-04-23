@@ -1,3 +1,7 @@
 mern/node_modules
 mern/.next
 mern/.now
+nx-vercel/node_modules
+nx-vercel/.vscode
+nx-vercel/dist
+nx-vercel/.now
