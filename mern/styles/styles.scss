@@ -1,0 +1,55 @@
+@import './bootstrap.min.css';
+@import './colors.scss';
+
+html {
+  background-color: $background;
+}
+
+body {
+  background-color: $background;
+  color: $foreground;
+}
+
+.primary {
+  color: $color2;
+}
+
+.bg-primary {
+  background-color: $color2;
+}
+
+.bg-secondary {
+  background-color: $color4;
+}
+
+.secondary {
+  color: $color4;
+}
+
+a {
+  color: $color4;
+  &:hover {
+    color: $color2;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+ul.nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .nav-item {
+    margin-right: 1rem;
+  }
+}
